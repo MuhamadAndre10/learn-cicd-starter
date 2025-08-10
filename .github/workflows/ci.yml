@@ -20,3 +20,6 @@ jobs:
 
       - name: Force Failure
         run: (exit 1)
+
+      - name: Chech the version of go
+        run: go version
