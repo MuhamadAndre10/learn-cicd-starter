@@ -14,7 +14,7 @@ func TestGetAPIKEY(t *testing.T) {
 		expectErr  error
 	}{
 		"success": {
-			want:       "1234",
+			want:       "12345",
 			authHeader: "ApiKey 12345",
 			expectErr:  nil,
 		},
